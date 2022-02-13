@@ -23,7 +23,7 @@ def main(compoundName):
             'normed_form':normalizedCompoound}
      
     df = pd.DataFrame(data)
-    print(df)
+    return df
     
     
     
